@@ -1,3 +1,6 @@
+import numpy as np
+
+
 class RnD : Server{
         draw()
         reveal(n)
@@ -78,4 +81,8 @@ def subjectToRules (func):
                 rule.neffect()
         return func(*args,**kwargs)
     return rulesChecker
+
+class Test :
+    def __init__(self):
+
 
